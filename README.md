@@ -5,6 +5,7 @@ This Python code implements a simple video processing application with a graphic
 
 1. Start/stop video capture from the default camera (camera ID 0).
 2. Apply the following image processing effects (only one can be active at a time):
+   
    i) Edge detection using Canny edge detection.
    
    ii) Grayscale thresholding with a user-adjustable threshold.
@@ -18,6 +19,7 @@ This Python code implements a simple video processing application with a graphic
 1. Run the script: python video_processor.py
 2. Click the "Start Camera" button to start capturing video.
 3. Use the following buttons to enable/disable image processing effects:
+   
    i) Edge Detection
    
    ii) Grayscale with Threshold
