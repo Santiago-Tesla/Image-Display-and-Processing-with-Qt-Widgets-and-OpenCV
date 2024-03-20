@@ -3,28 +3,28 @@ This Python code implements a simple video processing application with a graphic
 
 ## Features:
 
-Start/stop video capture from the default camera (camera ID 0).
-Apply the following image processing effects (only one can be active at a time):
-Edge detection using Canny edge detection.
-Grayscale thresholding with a user-adjustable threshold.
-Face detection using a Haar cascade classifier.
-Eye detection using a Haar cascade classifier (requires a face detection model).
+1. Start/stop video capture from the default camera (camera ID 0).
+2. Apply the following image processing effects (only one can be active at a time):
+  i) Edge detection using Canny edge detection.
+  ii) Grayscale thresholding with a user-adjustable threshold.
+  iii) Face detection using a Haar cascade classifier.
+  iv) Eye detection using a Haar cascade classifier (requires a face detection model).
 
 ## How to Use:
 
-Run the script: python video_processor.py
-Click the "Start Camera" button to start capturing video.
-Use the following buttons to enable/disable image processing effects:
-Edge Detection
-Grayscale with Threshold
-Face Detection
-Eye Detection
-Adjust the threshold slider (only applicable for grayscale thresholding) to change the threshold value.
-Click the "Save Frame" button to save the current frame as an image file.
-Click the "Exit" button to close the application.
+1. Run the script: python video_processor.py
+2. Click the "Start Camera" button to start capturing video.
+3. Use the following buttons to enable/disable image processing effects:
+   i) Edge Detection
+   ii) Grayscale with Threshold
+   iii) Face Detection
+   iv) Eye Detection
+4. Adjust the threshold slider (only applicable for grayscale thresholding) to change the threshold value.
+5. Click the "Save Frame" button to save the current frame as an image file.
+6. Click the "Exit" button to close the application.
 
 ## Requirements:
 
-Python 3.x
-OpenCV library (pip install opencv-python)
-PyQt5 library (pip install PyQt5)
+1. Python 3.x
+2. OpenCV library (pip install opencv-python)
+3. PyQt5 library (pip install PyQt5)
